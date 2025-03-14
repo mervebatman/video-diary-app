@@ -1,7 +1,7 @@
 {
   "name": "react-native-video-diary-app-test",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,28 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/slider": "^4.5.6",
+    "@tanstack/react-query": "^5.67.3",
     "expo": "~52.0.38",
+    "expo-av": "^15.0.2",
+    "expo-image-picker": "^16.0.6",
+    "expo-router": "^4.0.18",
     "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.7"
+    "expo-video": "^2.0.5",
+    "ffmpeg-kit-react-native": "^6.0.2",
+    "nativewind": "^4.1.23",
+    "react": "^18.3.1",
+    "react-native": "^0.76.7",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-video": "^6.10.2",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.4.17"
   },
   "private": true
 }
